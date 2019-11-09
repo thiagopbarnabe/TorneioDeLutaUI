@@ -1,0 +1,30 @@
+{
+    "extends": ["tslint:latest", "tslint-react"],
+    "rules": {
+        "array-type": [true, "generic"],
+        "comment-format": [true, "check-space"],
+        "curly": true,
+        "cyclomatic-complexity": [true, 8],
+        "eofline": false,
+        "indent": [true, "spaces", 4],
+        "interface-name": false,
+        "member-access": false,
+        "no-consecutive-blank-lines": true,
+        "no-console": [false, "log"],
+        "no-eval": true,
+        "no-trailing-whitespace": [true, "ignore-comments", "ignore-jsdoc"],
+        "object-literal-shorthand": false,
+        "object-literal-sort-keys": false,
+        "ordered-imports": false,
+        "quotemark": [true, "single", "jsx-double"],
+        "radix": true,
+        "semicolon": [true, "always", "ignore-interfaces"],
+        "trailing-comma": [true, {"multiline": "never", "singleline": "never"}],
+        "triple-equals": true,
+        "whitespace": [true, "check-branch", "check-decl"],
+        "jsx-boolean-value": false,
+        "jsx-self-close": false,
+        "jsx-wrap-multiline": false,
+        "jsx-no-multiline-js": false
+      }
+}
